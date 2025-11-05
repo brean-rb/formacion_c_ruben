@@ -78,11 +78,7 @@ void test_divide(){
 
 int main() {
     test_suma();
-    return 0;
     test_resta();
-    return 0;
     test_multiplica();
-    return 0;
-    test_divide();
     return 0;
 }
