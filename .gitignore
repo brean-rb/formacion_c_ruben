@@ -1,0 +1,20 @@
+# Archivos ejecutables
+*.exe
+*.out
+*.o
+
+# Archivos temporales
+*.log
+*.tmp
+*.swp
+
+# Archivos de compilación
+/build/
+*.obj
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de VSCode
+.vscode/
