@@ -16,7 +16,7 @@ void test_mi_strlen(){
 int mi_strcmp(const char *s1, const char *s2);
 void test_mi_strcmp(){
     assert(mi_strcmp("abc", "abc") == 0);
-    assert(mi_strcmp("abc", "abcd") < 0);
+    assert(mi_strcmp("aba", "abd") < 0);
     assert(mi_strcmp("abcd", "abc") > 0);
 }
 
